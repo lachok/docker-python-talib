@@ -1,6 +1,6 @@
 # Use the official lightweight Python image.
 # https://hub.docker.com/_/python
-FROM python:3.9-slim
+FROM python:slim
 
 # Install curl and compilers
 RUN apt-get update && apt-get install -y curl build-essential
